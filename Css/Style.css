@@ -8,6 +8,10 @@ header{
     position: relative;
 }
 
+.title-color{
+    color: red;
+}
+
 .title{
     color:whitesmoke;
     font-size: 45px;
@@ -26,5 +30,48 @@ header{
 }
 .logo{
     width: 180px;
-    border-style:outset;
+    border-style:inset;
 }
+
+#row-servicios{
+    background-color:#54575c;
+}
+
+.row{
+    margin: 0;
+}
+#row-servicios img{
+    border-radius: 70%;
+}
+#row-servicios p{
+    text-align: justify;
+    padding: 10px;
+}
+
+
+
+.col img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+#row-nosotros{
+    background-image: url(../img/fondo\ 2.jpg);
+    background-size: cover;
+    padding-top: 100px importat !important;
+    padding-bottom: 100px !important;
+}
+#row-nosotros img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+   
+
+}
+#row-nosotros p{
+    font-size: 14px;
+    color: whitesmoke;
+}
+
