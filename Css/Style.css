@@ -110,3 +110,11 @@ header{
 nav{
     z-index: 100;
 }
+
+footer{
+    background-image: url("../assets/img/footer.jpg");
+    background-size: cover;
+    position:relative;
+    padding-top:5px importat !important;
+    padding-bottom:5px!important;
+}
